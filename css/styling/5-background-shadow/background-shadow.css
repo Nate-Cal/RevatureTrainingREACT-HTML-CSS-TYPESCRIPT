@@ -26,3 +26,5 @@ h2 {
 
 /* box-shadow: casts a soft shadow around the box. */
 .b-shadow { box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3); }
+
+.bg-gradient.b-shadow.padded { background-image: linear-gradient(135deg, rgb(18, 240, 240), rgb(14, 243, 14)); box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3); }
