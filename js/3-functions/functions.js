@@ -24,6 +24,7 @@ function add(a, b) {
     return a + b;
 }
 console.log('add(2, 3):', add(2, 3)); // 5
+console.log('add("2", "3"):', add("2", "3")); // "23" (string concatenation)
 
 // Hoisting in action: this call works even though greet is defined below.
 greet(); // "Hello from a declaration!"
